@@ -36,7 +36,7 @@ jobs:
           go-version: ${{ env.GO_VERSION }}
 
       - name: Run go fmt test
-        run: sh hack/verify-gofmt.sh
+        run: hack/verify-gofmt.sh
         env:
           GO111MODULE: auto
 
